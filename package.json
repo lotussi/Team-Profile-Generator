@@ -1,0 +1,25 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lotussi/Team-Profile-Generator.git"
+  },
+  "author": "",
+  "license": "mit",
+  "bugs": {
+    "url": "https://github.com/lotussi/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/lotussi/Team-Profile-Generator#readme",
+  "devDependencies": {
+    "jest": "^29.4.3"
+  },
+  "dependencies": {
+    "inquirer": "^6.5.0"
+  }
+}
