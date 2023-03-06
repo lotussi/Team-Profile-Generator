@@ -1,56 +1,103 @@
-<!DOCTYPE html>
+
+    <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>My Team</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c502137733.js"></script>
 </head>
+
 <body>
-    <header>
-        <h1 class="text-center">My Team</h1>
-    </header>
-    <div class ="card" style="width: 18rem;">
-    <h2>Tom</h2>
-<h4>Manager</h4>
-<p>ID:4563</p>
-<p>Email: <a href="tom@gmail.com"></a></p>
-<p>Office Number:S3421</p>
-</div> 
-,
-<div class ="card" style="width: 18rem;">
-    <h2>Mark</h2>
-<h4>Engineer</h4>
-<p>ID:6534</p>
-<p>Email: <a href="mark@gmail.com"></a></p>
-<p>Github: <a href="https://github.com/mark@gmail.com"></a></p>
-</div> 
-,
-<div class ="card" style="width: 18rem;">
-    <h2>Paul Smith</h2>
-<h4>Engineer</h4>
-<p>ID:2578</p>
-<p>Email: <a href="Paul@gmail.com"></a></p>
-<p>Github: <a href="https://github.com/paulsmith@gmail.com"></a></p>
-</div> 
-,
-<div class ="card" style="width: 18rem;">
-    <h2>John</h2>
-<h4>Intern</h4>
-<p>ID:8342</p>
-<p>Email: <a href="john@gmail.com"></a></p>
-<p>School:PS</p>
-</div> 
-,
-<div class ="card" style="width: 18rem;">
-    <h2>Dave</h2>
-<h4>Intern</h4>
-<p>ID:8954</p>
-<p>Email: <a href="dave@gmail.com"></a></p>
-<p>School:VT</p>
-</div> 
-
-
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 jumbotron mb-3 team-heading">
+                <h1 class="text-center">My Team</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="team-area col-12 d-flex justify-content-center">
+                
+        <div class="card employee-card">
+        <div class="card-header">
+            <h2 class="card-title">john</h2>
+            <h3 class="card-title"><i class="fas fa-mug-hot mr-2"></i>Manager</h3>
+        </div>
+        <div class="card-body">
+            <ul class="list-group">
+                <li class="list-group-item">ID: john@mail.com</li>
+                <li class="list-group-item">Email: <a href="mailto:4367">4367</a></li>
+                <li class="list-group-item">Office number: 78</li>
+            </ul>
+        </div>
+    </div>
+        
+        <div class="card employee-card">
+    <div class="card-header">
+        <h2 class="card-title">paul</h2>
+        <h3 class="card-title"><i class="fas fa-glasses mr-2"></i>Engineer</h3>
+    </div>
+    <div class="card-body">
+        <ul class="list-group">
+            <li class="list-group-item">ID: paul@mail.com</li>
+            <li class="list-group-item">Email: <a href="mailto:2314">2314</a></li>
+            <li class="list-group-item">GitHub: <a href="https://github.com/test" target="_blank" rel="noopener noreferrer">test</a></li>
+        </ul>
+    </div>
+</div>
+        
+        <div class="card employee-card">
+    <div class="card-header">
+        <h2 class="card-title">mark</h2>
+        <h3 class="card-title"><i class="fas fa-glasses mr-2"></i>Engineer</h3>
+    </div>
+    <div class="card-body">
+        <ul class="list-group">
+            <li class="list-group-item">ID: mark@mail.com</li>
+            <li class="list-group-item">Email: <a href="mailto:6582">6582</a></li>
+            <li class="list-group-item">GitHub: <a href="https://github.com/team" target="_blank" rel="noopener noreferrer">team</a></li>
+        </ul>
+    </div>
+</div>
+        
+        <div class="card employee-card">
+    <div class="card-header">
+        <h2 class="card-title">undefined</h2>
+        <h3 class="card-title"><i class="fas fa-user-graduate mr-2"></i>Intern</h3>
+    </div>
+    <div class="card-body">
+        <ul class="list-group">
+            <li class="list-group-item">ID: dave@mail.com</li>
+            <li class="list-group-item">Email: <a href="mailto:8769">8769</a></li>
+            <li class="list-group-item">School: this</li>
+        </ul>
+    </div>
+</div>
+        
+        <div class="card employee-card">
+    <div class="card-header">
+        <h2 class="card-title">undefined</h2>
+        <h3 class="card-title"><i class="fas fa-user-graduate mr-2"></i>Intern</h3>
+    </div>
+    <div class="card-body">
+        <ul class="list-group">
+            <li class="list-group-item">ID: david@mail.com</li>
+            <li class="list-group-item">Email: <a href="mailto:9076">9076</a></li>
+            <li class="list-group-item">School: read</li>
+        </ul>
+    </div>
+</div>
+        
+            </div>
+        </div>
+    </div>
 </body>
 </html>
+    
